@@ -15,4 +15,5 @@ This is an interactive text-based storytelling game in which the user can choose
 ## Class Diagram:
 
 
-![Screenshot 2024-03-23 222739](https://github.com/CosmicIris/2024individualprogrammingproject/assets/111626385/3b6fe4e7-c5cd-4008-ad28-d9c6a06a5f62)
+![indv proj classdiagram](https://github.com/CosmicIris/2024individualprogrammingproject/assets/111626385/3ee77663-fc37-46c9-addc-2d5c03ee45d1)
+
