@@ -1,24 +1,37 @@
-from food import Food
-import time 
+import time
+class Food:
+  def food_choice(self):
+      while True:
+        time.sleep(3)
+        print("Before leaving on your journey, you decide to head home to\
+ eat something for energy.")
+        time.sleep(1.5)
+        print("What do you eat?")
+        time.sleep(1.5)
+        print("1) Moldy cheese") 
+        time.sleep(1.5)
+        print("2) An apple dipped in a clear potion")
+        time.sleep(1.5)
+        print("3) Blue edamame")
+        time.sleep(1.5)
+        food = input("Food Choice: ")
 
-f1 = Food()
+        if food == "1":
+            time.sleep(1.5)
+            print('The cheese is so moldy that you vomit until you die. Try again.')
+        elif food == "2":
+            time.sleep(1.5)
+            print('You choose the apple, which increases your energy level by 20%.')
+            break  
+        elif food == "3":
+            time.sleep(1.5)
+            print('After eating the edamame, you feel a burning sensation throughout\
+  your body. Turns out, the edamame is burning your insides. You die within\
+  5 minutes. Try again.')
+        else:
+          time.sleep(1.5)
+          print("You will become very weak if you do not eat\
+ something. You must pick a food. Please choose a valid option.")
 
-print("Welcome to Enchanter's Curse! This is a text-based adventure game. To choose\
- certain choices throughout the game, type the number of the choice you want to\
- make. That is all for the instructions. Have fun!")
-time.sleep(1.5)
-print("You live in Saiviel Kingdom. You are at your home tending to your crops, when\
- you notice a small group of them are starting to wither. At first, you do not\
- think much of it, however, you notice that your neighbor’s crops are failing as well.\
- Suddenly, you hear a trumpet blow in the village square. You, along with many others,\
- arrive at the village square and discover thata scribe has appeared and is standing in\
- the center. The scribe informings you personally that a curse has been placed\
- upon all of the crops in the kingdom by an enchanter named Esmeralda, and that, as\
- a master sorcerer, it is your duty to lift the curse before she takes over\
- and rules the kingdom.")
-while True:
-  time.sleep(2)
-  key = input('Do you accept the challenge? Type "y" to accept.')
-  if key == "y":
-    f1.food_choice()
+
    
