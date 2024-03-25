@@ -12,6 +12,10 @@ This is an interactive text-based storytelling game in which the user can choose
 
 ## Mockups:
 
+
+![indiv proj prog1 mockup](https://github.com/CosmicIris/2024individualprogrammingproject/assets/111626385/72cb3c3e-cc27-44e8-af65-307c983cd526)
+
+
 ## Class Diagram:
 
 
