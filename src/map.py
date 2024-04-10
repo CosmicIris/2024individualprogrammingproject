@@ -7,7 +7,7 @@ class Map:
             print("Before you leave, the scribe tells you that you need to find ten items\
   to break the spell: five eagle’s wings, three dragon eggs, one unicorn horn, and snake\
   venom. He also hands you a map with four locations on it: the forest, a cave, a small\
-hut, and Esmeralda’s castle. Where do you travel to first?")
+ hut, and Esmeralda’s castle. Where do you travel to first?")
             time.sleep(1)
             print("1) the dark forest")
             time.sleep(1)
@@ -17,6 +17,7 @@ hut, and Esmeralda’s castle. Where do you travel to first?")
             time.sleep(1)
             print("4) Esmeralda’s castle")
             map_choice = input("Choose a location: ")
+            time.sleep(1)
 
             if map_choice == "1":
                 time.sleep(1)
@@ -24,12 +25,29 @@ hut, and Esmeralda’s castle. Where do you travel to first?")
   forest, the sun has set and everything is covered in darkness. You can’t see a thing\
   but realized that you took your spell book, which might have a spell on creating\
   light.")
+                time.sleep(1)
                 book = input("Do you use the spell book? Type 'y' to use the spell\
  book: ")
+      
                 if book == "y":
                     time.sleep(1)
-                    print("You open the spellbook.")
-                    break
+                    print("You open your spell book and take out your wand, flipping to\
+ the elements and light section. Which spell do you choose?")
+                    time.sleep(1)
+                    print("1) Flammae Raptura")
+                    time.sleep(1)
+                    print("2) Illuminus")
+                    time.sleep(1)
+                    print("3) Aqua Fluctus")
+                    time.sleep(1)
+                    print("4) Terrae")
+                    time.sleep(1)
+                    print("5) Ventus Fortis")
+                    spell = input("Choose a spell: ")
+                    if spell == "2":
+                      time.sleep(1)
+                      print("...")
+                  
 
             elif map_choice == "4":
                 time.sleep(1)
