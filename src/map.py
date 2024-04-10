@@ -23,7 +23,7 @@ class Map:
                 time.sleep(1)
                 print("You travel to the dark forest. By the time you reach the\
   forest, the sun has set and everything is covered in darkness. You can’t see a thing\
-  but realized that you took your spell book, which might have a spell on creating\
+  but realized that you took your spell book and wand, which might have a spell on creating\
   light.")
                 time.sleep(1)
                 book = input("Do you use the spell book? Type 'y' to use the spell\
