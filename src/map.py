@@ -20,11 +20,12 @@ class Map:
             time.sleep(1)
 
             if map_choice == "1":
+              while True:
                 time.sleep(1)
                 print("You travel to the dark forest. By the time you reach the\
-  forest, the sun has set and everything is covered in darkness. You can’t see a thing\
-  but realized that you took your spell book and wand, which might have a spell on creating\
-  light.")
+ forest, the sun has set and everything is covered in darkness. You can’t see a thing\
+  but you realize that you took your spell book and wand, which might have a spell on\
+ creating light.")
                 time.sleep(1)
                 book = input("Do you use the spell book? Type 'y' to use the spell\
  book: ")
@@ -44,11 +45,36 @@ class Map:
                     time.sleep(1)
                     print("5) Ventus Fortis")
                     spell = input("Choose a spell: ")
+                   
                     if spell == "2":
                       time.sleep(1)
-                      print("...")
-                  
+                      print("You perform the spell titled “Illuminus”, which creates a\
+  spark of light at the tip of your wand. You can now see much better than before.")
+                      break
+                    elif spell == "1":
+                      time.sleep(1)
+                      print("You perform the spell titled “Flammae Raptura”, which\
+ creates a burst of flame at the tip of your wand instead of pure light. Incorrect\
+ spell.Try again.")
+                    elif spell == "3":
+                      time.sleep(1)
+                      print("You perform the spell titled “Aqua Fluctus”, which creates\
+  an overwhelming amount of water and nearly floods the forest. Incorrect\
+  spell. Try again.")
+                    elif spell == "4":
+                      time.sleep(1)
+                      print("You perform the spell titled “Terrae”, which creates\
+ many boulders, blocking your path. Incorrect spell. Try again.")
+                    elif spell == "5":
+                      time.sleep(1)
+                      print("You perform the spell titled “Ventus Fortis”, which\
+ creates creates a gust of wind. Incorrect spell. Try again.")
+            
+                    else:
+                      time.sleep(1)
+                      print("You must choose a spell. Please choose one from the list.")
 
+          
             elif map_choice == "4":
                 time.sleep(1)
                 print("You cannot travel to Esmeralda’s castle until you collect all ten\
