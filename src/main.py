@@ -1,11 +1,13 @@
 from food import Food
 from clothes import Clothes
+from cave import Cave
 from map import Map
 import time 
 
 f1 = Food()
 c1 = Clothes()
 m1 = Map()
+c2 = Cave()
 
 print("Welcome to Enchanter's Curse! This is a text-based adventure game. To choose\
  certain choices throughout the game, type the number of the choice you want to\
@@ -33,6 +35,4 @@ while True:
     f1.food_choice()
     c1.clothes_choice()
     m1.map_choice()
-   
-
    
