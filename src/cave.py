@@ -1,4 +1,5 @@
 import time
+
 class Cave:
   def GoToCave(self):
     while True:
@@ -23,6 +24,7 @@ class Cave:
               print("You perform the spell titled “Flammae Raptura”, which\
       creates a burst of flame at the tip of your wand instead of pure light. Incorrect\
              spell. Try again.")
+        
 
       elif light == "3":
               time.sleep(1)
@@ -82,8 +84,10 @@ spark of light at the tip of your wand. You can now see much better\
           time.sleep(1)
           print("Fortunately, the illusion distracts the dragon long enough for you to\
       take three of its eggs and carefully put it into your satchel. With the eggs\
-          secured, you quickly head out of the cave. ")
+          secured, you quickly head out of the cave. The next place you must travel to\
+  is the small hut. ")
+          break
+ 
 
-      break
 
      
