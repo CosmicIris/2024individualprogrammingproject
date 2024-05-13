@@ -1,8 +1,6 @@
 import time
 import random
 
-
-
 class wizardFight:
   
   def __init__(self):
