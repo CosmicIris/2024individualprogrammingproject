@@ -4,6 +4,7 @@ from cave import Cave
 from forest import Forest
 from map import Map
 from hut import Hut
+from castle import Castle
 import time 
 
 f1 = Food()
@@ -12,6 +13,7 @@ c1 = Clothes()
 m1 = Map()
 c2 = Cave()
 h1 = Hut()
+c3 = Castle()
 
 
 print("Welcome to Enchanter's Curse! This is a text-based adventure game. To choose\
@@ -43,4 +45,5 @@ while True:
     f2.GoToForest()
     c2.GoToCave()
     h1.GoToHut()
+    c3.GoToCastle()
    
