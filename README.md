@@ -3,7 +3,7 @@
 ## Enchanter's Curse
 
 ## Description: 
-This is an interactive text-based storytelling game in which the user can choose different choices that wil lead to certain outcomes, with the theme revolving around magic.
+This is an interactive text-based storytelling game in which the user can choose different choices that will lead to certain outcomes, with the theme revolving around magic.
 
 ## Features:
 * random events (such as a getting hit by lightning and instantly dying)
