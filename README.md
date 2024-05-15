@@ -6,7 +6,6 @@
 This is an interactive text-based storytelling game in which the user can choose different choices that will lead to certain outcomes, with the theme revolving around magic.
 
 ## Features:
-* random events (such as a getting hit by lightning and instantly dying)
 * certain choices will lead to immediate death (e.g: choosing the wrong clothes to wear, the wrong path, or the wrong tools could lead to death)
 * possible graphics for things such as magical items or characters through simple ASCII art
 * collection of certain items to lift the curse
