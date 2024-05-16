@@ -1,6 +1,5 @@
 import time
-from wizardfight import wizardFight
-w1 = wizardFight()
+
 class Hut:
   def GoToHut(self):
     while True:
@@ -13,7 +12,12 @@ class Hut:
  must fight me first.”')
       wizard_fight = input("Do you fight the wizard? Type 'y' to fight\
  the wizard: ")
-      if wizard_fight == "y": 
+      if wizard_fight == "n":
+        time.sleep(1)
+        print("Fine. You don't get the unicorn horn, meaning you have failed your task\
+  and are demoted to a common sourcerer. Try again.")
+
+      elif wizard_fight == "y": 
           time.sleep(1)
           print(
             'You decide to fight the wizard. Instructions: The objective of\
@@ -25,4 +29,5 @@ class Hut:
  damage his. If your health reaches 0, the fight will be over and you will have to\
  restart the fight. That is all for the instructions. Good luck.')
       time.sleep(1)
-      w1.wizardFight()   
+      break  
+   
