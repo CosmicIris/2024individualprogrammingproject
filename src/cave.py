@@ -49,7 +49,17 @@ class Cave:
  cave is covered in shiny red jewels. Do you pick them up?")
         time.sleep(1)
         jewels = input("Type 'y' to pick them up or 'n' to not pick them up:")
-        if jewels == 'y':
+        if jewels == "n":
+                       time.sleep(1)
+                       print("You decide not to pick up the jewels. You do, however, notice a\
+ dragon sleeping, guarding its eggs. You try to grab them without waking the dragon up\
+ but fail. The dragon wakes up and chases you. With no other option, you quickly cast\
+ a spell and kill the dragon. With no dragon to guard the eggs anymore, you take three\
+ of the eggs and carefully put them in your satchel. The next place you must travel\
+ to is the small hut.")
+                       break
+
+        elif jewels == 'y':
           print("You pick them up, putting them in your satchel. As you do\
  this, a dragon that is sleeping in the cave wakes up and notices to\
  trying to steal the jewels, breathing fire in an attempt to kill\
@@ -60,13 +70,13 @@ class Cave:
         time.sleep(1)
         print("1) perform a spell that creates colorful fireworks")
         time.sleep(1)
-        print("2)lure the dragon away from its eggs and attempt to sing it to sleep")
+        print("2) lure the dragon away from its eggs and attempt to sing it to sleep")
         time.sleep(1)
-        print("3)create an illusion of yourself stealing the jewels and running away\
-        while you making your actual body invisible")
+        print("3) create an illusion of yourself stealing the jewels and running away\
+ while you making your actual body invisible")
         time.sleep(1)
       
-        distraction = input("Choose a distraction:")
+        distraction = input("Choose a distraction: ")
 
         if distraction == "1":
           time.sleep(1)
@@ -87,7 +97,8 @@ class Cave:
  secured, you quickly head out of the cave. The next place you must travel to\
  is the small hut. ")
           break
- 
+                
+        
 
 
      
