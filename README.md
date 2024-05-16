@@ -23,3 +23,6 @@ This is an interactive text-based storytelling game in which the user can choose
 
 ![indv proj classdiagram](https://github.com/CosmicIris/2024individualprogrammingproject/assets/111626385/3ee77663-fc37-46c9-addc-2d5c03ee45d1)
 
+
+## Downloadable zipped file: 
+
